@@ -1,0 +1,12 @@
+body {
+  background-image: url("brickwall.jpg");
+  background-size: cover;
+}
+
+.menu a{
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 35px;
+  margin-top: 50px;
+}
