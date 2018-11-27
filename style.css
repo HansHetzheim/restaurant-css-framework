@@ -1,28 +1,27 @@
 body{
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100px;
-}
-
-@media (min-width: 768px) {
-
-
+  background-image: url(brickwall2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 
 }
+
+
 .jumbotron {
-  background-image: url("./coffee.jpg");
+  background-image: url("./mojo.jpg");
   background-size: cover;
   color: white;
-  margin-bottom: 2px;
-
-
+  margin-bottom: 6px;
 
 }
 
 .jumbotron a{
   color: white;
+  }
 
+.jumbotron p, h1{
+  margin-left: 15px;
 }
 .jumbotron a:hover{
   color: lightgrey;
@@ -31,8 +30,11 @@ body{
 
 }
 
-.col-md-6{
+.col-md-{
   padding: 0;
   margin: 0;
+  margin-bottom: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
 
 }

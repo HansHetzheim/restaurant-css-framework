@@ -4,11 +4,6 @@ body{
   background-attachment: fixed;
 }
 
-
-h2{
-  text-align: center;
-  }
-
 .jumbotron{
   background-image: url(./mojo.jpg);
   background-size: cover;
@@ -20,4 +15,13 @@ h2{
 }
 .jumbotron a:hover{
   color: lightgrey;
+}
+.jumbotron p, h1{
+  margin-left: 15px;
+}
+
+.address p{
+  color: white;
+  font-size: 20px;
+}
 }
