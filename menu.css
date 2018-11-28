@@ -1,12 +1,44 @@
 body {
-  background-image: url("brickwall.jpg");
-  background-size: cover;
+  background-image: url("background2.jpg");
+  background-size: repeat;
+  background-attachment: fixed;
 }
 
+
+
+.jumbotron {
+  background-image: url("./mojo.jpg");
+  background-size: cover;
+  color: white;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  padding: 0;
+
+}
+
+.jumbotron a{
+  color: white;
+  }
+
+.jumbotron p, h1{
+  margin-left: 15px;
+}
+.jumbotron a:hover{
+  color: lightgrey;
+}
+
+
 .menu a{
-  display: flex;
-  justify-content: center;
-  color: black;
+  color: white;
   font-size: 35px;
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
+
+}
+
+ul li{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
 }

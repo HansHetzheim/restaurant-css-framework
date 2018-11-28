@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(background.jpg);
+  background-size: repeat;
+  background-attachment: fixed;
+
+}
+
+
+.jumbotron {
+  background-image: url("./mojo.jpg");
+  background-size: cover;
+  color: white;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  padding: 0;
+
+}
+
+.jumbotron a{
+  color: white;
+  }
+
+.jumbotron p, h1{
+  margin-left: 15px;
+}
+.jumbotron a:hover{
+  color: lightgrey;
+}
+
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px;
+
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em;
+
+
+}
+
+
+/* Times */
+.agenda .agenda-time {
+  width: 140px;
+}
+
+
+/* Events */
+.agenda .agenda-events {  }
+.agenda .agenda-events .agenda-event {  }

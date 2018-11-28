@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(background2.jpg);
+  background-size: repeat;
+  background-attachment: fixed;
+
+}
+
+
+.jumbotron {
+  background-image: url("./mojo.jpg");
+  background-size: cover;
+  color: white;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  padding: 0;
+
+}
+
+.jumbotron a{
+  color: white;
+  }
+
+.jumbotron p, h1{
+  margin-left: 15px;
+}
+.jumbotron a:hover{
+  color: lightgrey;
+}
+
+.contact-section{
+  color: white;
+  display: flex;
+  justify-content: center;
+}

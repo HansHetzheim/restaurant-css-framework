@@ -1,8 +1,8 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url(brickwall2.jpg);
-  background-size: cover;
+  background-image: url(background.jpg);
+  background-size: repeat;
   background-attachment: fixed;
 
 }
@@ -13,6 +13,8 @@ body{
   background-size: cover;
   color: white;
   margin-bottom: 6px;
+  margin-top: 15px;
+  padding: 0;
 
 }
 
@@ -30,11 +32,11 @@ body{
 
 }
 
-.col-md-{
-  padding: 0;
-  margin: 0;
+.col-md-6{
+  padding: 8px;
+  margin-top: 15px;
   margin-bottom: 6px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left:
+  margin-right:
 
 }

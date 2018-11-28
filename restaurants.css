@@ -1,23 +1,32 @@
 body{
-  background-image: url(./brickwall2.jpg);
-  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-image: url(background.jpg);
+  background-size: repeat;
   background-attachment: fixed;
+
 }
 
-.jumbotron{
-  background-image: url(./mojo.jpg);
+
+.jumbotron {
+  background-image: url("./mojo.jpg");
   background-size: cover;
+  color: white;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  padding: 0;
 
 }
+
 .jumbotron a{
   color: white;
+  }
 
+.jumbotron p, h1{
+  margin-left: 15px;
 }
 .jumbotron a:hover{
   color: lightgrey;
-}
-.jumbotron p, h1{
-  margin-left: 15px;
 }
 
 .address p{
